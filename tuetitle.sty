@@ -1,0 +1,104 @@
+% Titelblatt für die Dissertation bei
+% der Mathematisch-Naturwissenschaftlichen Fakultät der Universität Tübingen
+%
+% Derived by the tuhhtitle.sty file:
+% Titelei für die Technische Universität Hamburg-Harburg
+% Copyright (c) Markus Kohm, 2007
+%
+%
+% This work consists of the file tuetitle.sty only.
+%
+%
+% Redefines the \maketitle command, admits optional arguments "internal" (default, for
+% a title page *in* the dissertation, with the second page containing the informations
+% about dean, experts, and date of the examination) and "external" (just the first page). 
+%
+% Obligatory commands: \author{}, \birthplace{}, \title{}, \examinationsyear{}
+% For the second page: \dean{}, \dateoforalexamination{}, \experts{}
+%
+% Eperts are to be separated by \and, i.e.
+% \experts{First Expert \and Second Expert...}
+%
+
+\ProvidesPackage{tuetitle}[2010/10/08]
+
+\newif\if@internaltitlepage
+\DeclareOption{internal}{\@internaltitlepagetrue}
+\DeclareOption{external}{\@internaltitlepagefalse}
+
+\ExecuteOptions{internal}
+\ProcessOptions\relax
+
+
+\newcommand*{\@birthplace}{%
+  \PackageError{tuetitle}{\string\birthplace\space missing}{%
+    You have to use \string\birthplace\space to set up the author's birthplace.}%
+}
+\newcommand*{\birthplace}[1]{\gdef\@birthplace{#1}}
+
+\newcommand*{\@examinationyear}{\@arabic{\year}}
+\newcommand*{\examinationyear}[1]{\gdef\@examinationyear{#1}}
+
+
+\if@internaltitlepage
+  \newcommand*{\@dean}{%
+    \PackageError{tuetitle}{\string\dean\space missing}{%
+      You have to use \string\dean\space to set up the faculty dean.}%
+  }
+  \newcommand*{\dean}[1]{\gdef\@dean{#1}}
+
+  \newcommand*{\@experts}{%
+    \PackageError{tuetitle}{\string\experts\space missing}{%
+      You have to use \string\experts\space to set up the experts,\MessageBreak
+      e.g. `\string\experts{Name of the First Expert\string\and\space
+        Name of the Second Expert}'.}%
+  }
+  \newcommand*{\experts}[1]{\gdef\@experts{#1}}
+
+  \newcommand*{\dateoforalexamination}[1]{\gdef\@date{#1}}
+\else
+  \newcommand*{\dean}[1]{\PackageWarning{tuetitle}{No \string\dean\space necessary\MessageBreak in internal title page}}
+  \newcommand*{\experts}[1]{\PackageWarning{tuetitle}{No \string\experts\space necessary\MessageBreak  in internal title page}}
+  \newcommand*{\dateoforalexamination}[1]%
+              {\PackageWarning{tuetitle}{No \string\dateoforalexamination\space necessary\MessageBreak  in internal title page}}
+\fi
+
+
+\renewcommand*{\maketitle}{%
+  \begin{titlepage}
+    \centering\large
+    \vspace*{\stretch{.5}}
+    {\huge\bfseries\strut\ignorespaces\@title\strut}\\
+    \vspace*{\stretch{2}}
+    \Large\textsc{Dissertation}\large\\
+    \vspace*{\stretch{1}}
+    der Mathematisch-Naturwissenschaftlichen Fakult\"{a}t\\[1ex]
+    der Eberhard Karls Universit\"{a}t T\"{u}bingen\\[1ex]
+    zur Erlangung des Grades eines\\[1ex]
+    Doktors der Naturwissenschaften\\[1ex]
+    (Dr.\ rer.\ nat.)\\
+    \vspace*{\stretch{2}}
+    vorgelegt von\\[.8ex]
+    \Large{\scshape\strut\ignorespaces\@author}\large\\[.8ex]
+    aus \@birthplace\\
+    \vspace*{\stretch{1}}
+    T\"{u}bingen\\[.8ex]
+    \@examinationyear
+    \clearpage\normalsize
+    \if@internaltitlepage
+      \thispagestyle{empty}\raggedright\null\vfill
+      \newcounter{tempcnta}
+      \setcounter{tempcnta}{1}
+      \def\and{\strut\\%
+        \stepcounter{tempcnta}%
+        \arabic{tempcnta}. Berichterstatter: & \ignorespaces}%
+      \begin{tabular}{ll}
+        Tag der m\"{u}ndlichen Qualifikation: \qquad & \@date \\
+        &\\
+        Dekan: & \@dean \\
+        1. Berichterstatter: & \@experts
+      \end{tabular}
+      \clearpage
+    \else\fi
+  \end{titlepage}
+}
