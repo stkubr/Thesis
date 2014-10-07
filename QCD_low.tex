@@ -5,7 +5,7 @@
 Quantum Chromodynamics (QCD) is widely approved to be the underlying theory of strong interactions. In a nutshell it is a local non-Abelian Jang-Mills gauge field theory with gauge group symmetry SU(3). The non-Abelian nature of its group renders itself on diagrammatic level as presence of self-interaction between glouns in addition to the quark-gluon interaction. 
 \\
 
-Been carriers of the "color", the corresponding to SU(3) gauge group charge, are not gauge independent objects themselves, and therefore are neither detectable nor exist as free, asymptotic states, though a certain relation of outgoing quark and hadron jet can be established at high energies due to quark-jet duality. States whose are detectable and had been seen in experiment are the bound states of quarks and presumably gluons. Without exaggeration, the study of such closed, confined objects is a sophisticated subject. And could have been even more if a quark would not carry, in addition to the color, the electric charge, described by gauge theory of Quantum Electodynamics (QED). This fact provides the possibility to test dynamical properties of bound states and to probe their quark substance by photonic scalpel. 
+Been carriers of the "color", the corresponding to SU(3) gauge group charge, are not gauge independent objects themselves, and therefore are neither detectable nor exist as free, asymptotic states, though a certain relation of outgoing quark and hadron jet can be established at high energies due to quark-jet duality\cite{•}. States whose are detectable and had been seen in experiment are the bound states of quarks and presumably gluons. Without exaggeration, the study of such closed, confined objects is a sophisticated subject. And could have been even more if a quark would not carry, in addition to the color, the electric charge, described by gauge theory of Quantum Electodynamics (QED). This fact provides the possibility to test dynamical properties of bound states and to probe their quark substance by photonic scalpel. 
 \\
 
 Additionally to gauge group invariance, the Lagrangian of QCD posses several symmetries, some of whose are hidden. Of these, chiral symmetry and its breakdown are essential for the mass generation of bound states. 
@@ -15,14 +15,27 @@ This chapter provide the introduction in the basic aspects of low energy QCD and
 
 
 
-\section{The Quantum Chromodynamic field theory}
+\section{Quantum Chromodynamic field theory}
 	\subsection{The QCD Lagrangian}
-	Following the same ideas of the localization of the initially global gauge transformation as it was employed for U(1) group transformation in QED, as a starting point one can write down the Lagrangian of Dirac femionic field $q(x)$ with mass parameter $m$:
+	Following the same ideas of the localization of the initially global gauge transformation as it was employed for U(1) group transformation in QED, as a starting point one can write down the Lagrangian of femionic field $q(x)$ with mass parameter $m$:
 	\beqa
-		\mathcal{L}_{fermions} = \bar{q}(i\dslash - m )q \;.
+		\mathcal{L}_{fermions} = \bar{q}(i\dslash - m )q \;,
 	\eeqa
-	
-	
+	Here we consider the Dirac femionic field $q(x)$ in a fundamental representation of the color group SU(3) and therefore its semi-simple Lie algebra\cite{•} shall be considered. Thus the fermion field $q(x)$ has a $N_c=3$ components $q_i(x), \; i=1,2,3$, reciprocal to colors. Due to the gauge principle, we impose that the Lagrangian of the free Dirac field must be invariant under the SU(3) group transformation:
+	\beqa
+		\label{color_transform}
+		q_i(x)\rightarrow  q_i^\prime(x)=U_{ij}q_i(x), \;\; U = exp(-it^a\theta^a) \;,
+	\eeqa
+	here $\theta^a$ so far \textit{global} arbitrary parameters, independent on $x$ and $t^a, \; a=1,..,N^2_c-1$, are the generators associated to the SU(3) group. Those can be experessed as $t^a=\lambda^2/2$, where $\lambda^a$ are Gell-Mann matrices, the standard choice of basis\cite{•}. The generators $t^a$ obey the Lie algebra:
+	\beqa
+		[t^a,t^b]=if^{abc}t^c \;,
+	\eeqa
+	where $f^{abc}$ is totally antisymmetric structure tensor, specifying the group algebra. 
+	\\
+	Given Lagrangian of fermions $\mathcal{L}_{fermions}$ is completely invariant under the global group transformation \ref{color_transform}. But after the localization of the transformation, the $\theta^a\rightarrow \theta^a(x)$ are \textit{local}, however, the $\mathcal{L}_{fermions}$ is no longer invariant because the derivative term would act now on $\theta^a(x)$ as well. Futher, still it can be made independent, although it require to "extend" the derivative to the covariant one:
+	\beqa
+		\partial_\mu \rightarrow D_\mu = \partial_\mu - ig t^a A^a_\mu \; ,
+	\eeqa
 	
 	\subsection{The generating functional of QCD}
 	\subsection{Fadeev-Popov ghosts} 
