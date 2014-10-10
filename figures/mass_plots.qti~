@@ -1,0 +1,2964 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	40
+<table>
+newMT	30	6	31/10/13 17:58
+geometry	0	618	701	220	minimized	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.019044	1	1.302693222511		0.138	
+1	0.038416	1.024161014104	1.323082654836		0.196	
+2	0.076729	1.068062927553	1.362402946874		0.277	
+3	0.155236	1.153028893462	1.438519355298		0.394	
+4	0.321489	1.31060798957	1.583760171299		0.567	
+5	0.511225	1.459215063224	1.722494191001		0.715	
+</data>
+</table>
+<table>
+newMT-Pion	30	7	11/4/13 8:53 AM
+geometry	196	618	916	220	minimized	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	M0[Y]	3M0[Y]
+ColWidth	100	145	165	100	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+<col nr="6">
+3*col("M0")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0
+Comments								
+WindowLabel		2
+<data>
+0	0.019044	0.9269119167318	1.195928152529		0.138	0.60591	1.81773
+1	0.038416	0.9561722274017	1.22032597188		0.196	0.616106	1.848318
+2	0.076729	1.006932422757	1.263210454518		0.277	0.634357	1.903071
+3	0.155236	1.101958050298	1.346526379829		0.394	0.66701	2.00103
+4	0.321489	1.264234993516	1.490289101011		0.567	0.730865	2.192595
+5	0.511225	1.426549718211	1.636127686949		0.715	0.792172	2.376516
+</data>
+</table>
+<table>
+MT-nucleon	32	5	11/5/13 10:16 AM
+geometry	392	618	701	220	minimized	
+header	Mpi2[X]	M-Nuc[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	0	0.902			
+1	0.019044	0.9352799156809			
+2	0.05	0.978			
+3	0.1	1.049			
+4	0.15	1.106			
+5	0.2	1.161			
+6	0.25	1.218			
+7	0.3	1.266			
+8	0.35	1.314			
+9	0.4	1.358			
+10	0.45	1.401			
+11	0.5	1.441			
+</data>
+</table>
+<table>
+MT-delta	32	4	11/5/13 10:31 AM
+geometry	588	618	701	220	minimized	
+header	Mpi2[X]	M-Delt[Y]	5[Y]	m-pi[Y]
+ColWidth	100	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.0194797849	1.2171		0.13957
+1	0.10504081	1.3185		0.3241
+2	0.19430464	1.4102		0.4408
+3	0.287296	1.4956		0.536
+4	0.38378025	1.5756		0.6195
+5	0.484416	1.6526		0.696
+</data>
+</table>
+<table>
+M0-MT	30	3	11/19/13 11:58 AM
+geometry	784	618	445	220	minimized	
+header	mpi2[X]	M0[Y]	3M0[Y]
+ColWidth	100	100	100	
+<com>
+<col nr="2">
+3*col("M0")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0.49073	1.47219
+1	0.0194797	0.50278	1.50834
+2	0.10504081	0.5497	1.6491
+3	0.19430464	0.5896	1.7688
+4	0.287296	0.6251	1.8753
+5	0.38378025	0.6576	1.9728
+6	0.48511225	0.6882	2.0646
+7	0.57927321	0.7142	2.1426
+</data>
+</table>
+<table>
+eta16	30	6	1/7/14 10:35 AM
+geometry	-3	32	782	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	95	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.011881	0.9647	1.3564		0.109	
+1	0.023104	0.9812	1.3708		0.152	
+2	0.091809	1.0702	1.4477		0.303	
+3	0.1849	1.1754	1.5384		0.43	
+4	0.375769	1.3527	1.6947		0.613	
+5	0.5776	1.5088	1.8347		0.76	
+</data>
+</table>
+<table>
+eta20	30	6	1/7/14 11:28 AM
+geometry	87	336	785	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel	ATTENTION: value of the pion mass at the physical point changed for rendering purposes. Correct value is: 0.014161	2
+<data>
+0	0.011881	1.0297	1.363		0.119	
+1	0.0256	1.0438	1.3754		0.16	
+2	0.092416	1.1223	1.4442		0.304	
+3	0.1849	1.2176	1.5291		0.43	
+4	0.370881	1.3815	1.679		0.609	
+5	0.567009	1.5319	1.81		0.753	
+</data>
+</table>
+<table>
+eta16-pion	30	6	1/7/14 11:30 AM
+geometry	783	35	782	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.018225	1.0051	1.3418		0.135	
+1	0.080656	1.0921	1.43		0.284	
+2	0.168921	1.1967	1.5172		0.411	
+3	0.3481	1.3755	1.6837		0.59	
+4	0.537289	1.5297	1.8207		0.733	
+</data>
+</table>
+<table>
+eta20-pion	30	6	1/7/14 11:34 AM
+geometry	849	282	785	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.019321	0.9958	1.282		0.139	
+1	0.078961	1.0705	1.3505		0.281	
+2	0.161604	1.161	1.4333		0.402	
+3	0.331776	1.3262	1.5826		0.576	
+4	0.512656	1.4691	1.715		0.716	
+</data>
+</table>
+<table>
+MT-digitalized-Nucleon	30	4	1/7/14 1:36 PM
+geometry	980	618	782	220	minimized	
+header	Mpi2[X]	M-Nuc-16[Y]	M-Nuc-20[Y]	5[Y]
+ColWidth	100	145	165	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.0085	0.919	0.911	
+1	0.072	1.024	1	
+2	0.117	1.084	1.059	
+3	0.245	1.231	1.2	
+4	0.371	1.356	1.317	
+5	0.531	1.492	1.446	
+</data>
+</table>
+<table>
+MT-digitalized-Delta	30	4	1/7/14 1:39 PM
+geometry	1176	618	782	220	minimized	
+header	Mpi2[X]	M-Delta-16[Y]	M-Delta-20[Y]	5[Y]
+ColWidth	100	145	165	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		0
+<data>
+0	0.0085	1.248	1.2314	
+1	0.072	1.3398	1.3285	
+2	0.1509	1.4337	1.4223	
+3	0.251	1.5421	1.523	
+4	0.3606	1.644	1.618	
+5	0.5284	1.7751	1.743	
+</data>
+</table>
+<table>
+eta16-mixed	30	6	2/20/14 8:36 AM
+geometry	-4	7	782	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.018225	0.942	1.338		0.135	
+1	0.080656	1.038	1.419		0.284	
+2	0.168921		1.514		0.411	
+3	0.3481		1.691		0.59	
+4	0.537289		1.817		0.733	
+</data>
+</table>
+<table>
+eta20-mixed	30	6	2/20/14 8:37 AM
+geometry	-1	257	785	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.019321	0.931	1.28		0.139	
+1	0.078961	1.011	1.347		0.281	
+2	0.161604	1.107	1.43		0.402	
+3	0.331776		1.58		0.576	
+4	0.512656		1.712		0.716	
+</data>
+</table>
+<multiLayer>
+Graph1	2	1	11/5/13 10:47 AM
+geometry	1372	618	751	426	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	300	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	377	361
+<PageGeometry>0.00672948	0.0132275	0.507402	0.955026</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Serif	12	50	1	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Serif	12	50	1	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	MT-nucleon_Mpi2	MT-nucleon_M-Nuc	0	1	#000000	1	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	31	1
+curve	newMT-Pion_Mpi2	newMT-Pion_M-Nuc	0	1	#ff0000	0	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	MT-delta_Mpi2	MT-delta_M-Delt	0	1	#808080	1	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	31	1
+curve	newMT-Pion_Mpi2	newMT-Pion_M-Delta	0	1	#000080	0	2	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#00ffff	0	1	7	2	#008080	#008080	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ff00ff	0	1	7	3	#8000ff	#8000ff	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#ffff00	0	1	7	3	#8000ff	#8000ff	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#808000	0	1	7	3	#8000ff	#8000ff	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#000080	0	1	7	3	#8000ff	#8000ff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#008080	1	1	1	4
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#008080	1	1	1	4
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#8000ff	1	1	1	5
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#8000ff	1	1	1	5
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#8000ff	1	1	1	6
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#8000ff	1	1	1	6
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#8000ff	1	1	1	7
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#8000ff	1	1	1	7
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#8000ff	1	1	1	8
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#8000ff	1	1	1	8
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	8	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.010033444816054</x>
+<y>1.9846153846154</y>
+<right>0.20722433460076</right>
+<bottom>1.84480968858131</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) RL1 N
+\l(2) RL2+π N
+\l(3) RL1 Δ
+\l(4) RL2+π Δ
+\l(5) Lattice N
+\l(6) Lattice Δ
+</Text>
+<Font>Sans Serif	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.60367892976589</x>
+<y>1.9230769230769</y>
+<right>0.20722433460076</right>
+<bottom>1.84480968858131</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) RL2 N
+\l(2) RL2+π N
+\l(3) RL2 Δ
+\l(4) RL2+π Δ
+</Text>
+<Font>Sans Serif	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<graph>
+ggeometry	387	5	351	363
+<PageGeometry>0.520861	0.0132275	0.472409	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)			M (GeV)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	4	5124
+AxesTitleDistance	0	2	2	2
+InvertedTitle	0	1	0	0
+TitleFont	Sans Serif	12	75	0	0	0
+ScaleFont0	Sans Serif	10	75	0	0	0
+ScaleFont1	Serif	12	50	1	0	0
+ScaleFont2	Serif	12	50	1	0	0
+ScaleFont3	Sans Serif	10	75	0	0	0
+AxisFont0	Sans Serif	10	50	0	0	0
+AxisFont1	Sans Serif	10	50	0	0	0
+AxisFont2	Sans Serif	10	50	0	0	0
+AxisFont3	Sans Serif	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	newMT_Mpi2	newMT_M-Nuc	0	1	#000000	3	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	newMT_Mpi2	newMT_M-Delta	0	1	#808080	4	2	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	newMT-Pion_Mpi2	newMT-Pion_M-Nuc	0	1	#ff0000	0	2	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+curve	newMT-Pion_Mpi2	newMT-Pion_M-Delta	0	1	#000080	0	2	7	0	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	0	1	1	1
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+eta-bands	2	1	1/7/14 11:37 AM
+geometry	194	90	751	426	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	377	361
+<PageGeometry>0.00672948	0.0132275	0.507402	0.955026</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Liberation Serif	12	50	1	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Liberation Serif	12	50	1	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Delta	0	1	#0000ff	0	1	7	0	#800000	#800000	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Delta	0	1	#0000ff	0	1.5	7	0	#008080	#008080	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1	7	0	#800080	#800080	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1.5	7	0	#008000	#008000	1	#ffffff	0	1	2	0	0	29	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#00ffff	0	1	7	2	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ff00ff	0	1	7	3	#000000	-1	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#ffff00	0	1	7	3	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#808000	0	1	7	3	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#000080	0	1	7	3	#000000	-1	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#000000	1	1	1	8
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#000000	1	1	1	8
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#000000	1	1	1	9
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#000000	1	1	1	9
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#000000	1	1	1	10
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#000000	1	1	1	10
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#000000	1	1	1	11
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#000000	1	1	1	11
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#000000	1	1	1	12
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#000000	1	1	1	12
+curve	physical_1	physical_nucleon	1	0	#800080	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#800000	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	8	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.011627906976744</x>
+<y>1.9808333333333</y>
+<right>0.235880398671096</right>
+<bottom>1.678</bottom>
+<attachTo>1</attachTo>
+<onTop>0</onTop>
+<visible>1</visible>
+<Text>
+\l(3) RL1
+\l(1) RL2+π
+\l(9) Lattice N
+\l(12) Lattice Δ
+</Text>
+<Font>Liberation Serif	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.013531799729364</x>
+<y>1.272859922179</y>
+<right>0.0209742895805142</right>
+<bottom>1.26614785992218</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.21177266576455</x>
+<y>1.8724708171206</y>
+<right>0.211096075778078</right>
+<bottom>1.87247081712062</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.01328903654485</x>
+<y>1.2601666666667</y>
+<right>0.0647840531561462</right>
+<bottom>1.15283333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0033222591362126</x>
+<y>1.0608333333333</y>
+<right>0.0598006644518272</right>
+<bottom>0.9535</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+N
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.421926910299</x>
+<y>1.6856666666667</y>
+<right>0.473421926910299</right>
+<bottom>1.57833333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.038205980066445</x>
+<y>0.7005</y>
+<right>0.20265780730897</right>
+<bottom>0.589333333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+enter your text here
+</Text>
+<Font>Sans Serif	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<graph>
+ggeometry	383	5	348	363
+<PageGeometry>0.515478	0.0132275	0.468371	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)			M (GeV)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	4	5124
+AxesTitleDistance	0	2	2	2
+InvertedTitle	0	1	0	0
+TitleFont	Sans Serif	12	75	0	0	0
+ScaleFont0	Sans Serif	10	75	0	0	0
+ScaleFont1	Liberation Serif	12	50	1	0	0
+ScaleFont2	Liberation Serif	12	50	1	0	0
+ScaleFont3	Sans Serif	10	75	0	0	0
+AxisFont0	Sans Serif	10	50	0	0	0
+AxisFont1	Sans Serif	10	50	0	0	0
+AxisFont2	Sans Serif	10	50	0	0	0
+AxisFont3	Sans Serif	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eta16_Mpi2	eta16_M-Delta	0	1	#ff8000	1	2	7	0	#ff0000	#ff0000	1	#ff8000	0	1	2	0	0	29	1
+curve	eta20_Mpi2	eta20_M-Delta	0	1	#ff8000	1	2	7	0	#0000ff	#0000ff	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Delta	0	1	#0000ff	0	1	7	0	#000000	#000000	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Delta	0	1	#0000ff	0	1.5	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta20_Mpi2	eta20_M-Nuc	0	1	#ff8000	1	1	7	0	#00ff00	#00ff00	0.650004	#ff8000	0	1	2	0	0	29	1
+curve	eta16_Mpi2	eta16_M-Nuc	0	1	#ff8000	1	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1	7	0	#8000ff	#8000ff	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1.5	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#8000ff	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#000000	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	0	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.9693333333333</y>
+<right>0.206375838926175</right>
+<bottom>1.79683333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>0</onTop>
+<visible>1</visible>
+<Text>
+\l(1) RL2
+\l(8) RL2+π
+</Text>
+<Font>Liberation Serif	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#0000ff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0234899</x>
+<y>1.87</y>
+<right>0.0964899</right>
+<bottom>1.83</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#0000ff</Background>
+<Alpha>166</Alpha>
+<BrushColor>#0000ff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ff8000</Color>
+<FrameWidth>2</FrameWidth>
+<LineStyle>2</LineStyle>
+<x>0.0234899</x>
+<y>1.94</y>
+<right>0.0964899</right>
+<bottom>1.9</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ff8000</Background>
+<Alpha>166</Alpha>
+<BrushColor>#ff8000</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#0000ff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.535</x>
+<y>1.885</y>
+<right>-0.462</right>
+<bottom>1.845</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#0000ff</Background>
+<Alpha>166</Alpha>
+<BrushColor>#0000ff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ff0000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.535235</x>
+<y>1.94633</y>
+<right>-0.462235</right>
+<bottom>1.90633</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ff0000</Background>
+<Alpha>166</Alpha>
+<BrushColor>#ff0000</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.42114093959732</x>
+<y>1.6741666666667</y>
+<right>0.476510067114094</right>
+<bottom>1.56683333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.2601666666667</y>
+<right>0.0721476510067114</right>
+<bottom>1.15283333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.0148333333333</y>
+<right>0.0738255033557047</right>
+<bottom>0.9075</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+N
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+eta16-pion-oppositesign	30	6	3/3/14 8:29 AM
+geometry	775	12	782	220	active
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0.018225	0.872	1.334		0.135	
+1	0.080656	0.979	1.415		0.284	
+2	0.168921	1.095	1.51		0.411	
+3	0.3481	1.287	1.67		0.59	
+4	0.537289	1.448	1.8		0.733	
+</data>
+</table>
+<table>
+eta20-pion-oppositesign	30	6	3/3/14 8:29 AM
+geometry	787	251	785	220	
+header	Mpi2[X]	M-Nuc[Y]	M-Delta[Y]	5[Y]	m-pi[Y]	6[Y]
+ColWidth	100	145	165	100	100	100	
+<com>
+<col nr="0">
+col("m-pi")*col("m-pi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel	ATTENTION: value of the pion mass at the physical point changed for rendering purposes. Correct value is:  0.019321 	1
+<data>
+0	0.018225	0.855	1.276		0.139	
+1	0.078961	0.945	1.344		0.281	
+2	0.161604	1.049	1.427		0.402	
+3	0.331776	1.221	1.576		0.576	
+4	0.512656	1.371	1.72		0.716	
+</data>
+</table>
+<multiLayer>
+Graph4	2	1	3/3/14 10:57 AM
+geometry	989	66	404	421	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	5	377	361
+<PageGeometry>0.010101	0.0134048	0.95202	0.967828</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Liberation Serif	12	50	1	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Liberation Serif	12	50	1	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Delta	0	1	#0000ff	0	1	7	0	#800000	#800000	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Delta	0	1	#0000ff	0	1.5	7	0	#008080	#008080	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1	7	0	#800080	#800080	0.450004	#0000ff	0	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1.5	7	0	#008000	#008000	1	#ffffff	0	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#000000	1	1	1	21
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#000000	1	1	1	21
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#000000	1	1	1	20
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#000000	1	1	1	20
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#000000	1	1	1	19
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#000000	1	1	1	19
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#000000	1	1	1	18
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#000000	1	1	1	18
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#000000	1	1	1	22
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#000000	1	1	1	22
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#808000	0	1	7	3	#000000	-1	0	#000000	14	1.5	2	0	0	29	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#ffff00	0	1	7	3	#000000	-1	0	#000000	14	1.5	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ff00ff	0	1	7	3	#000000	-1	0	#000000	14	1.5	2	0	0	30	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#00ffff	0	1	7	2	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#000080	0	1	7	3	#000000	-1	0	#000000	14	1.5	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#800080	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#800000	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	8	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0099667774086379</x>
+<y>1.9808333333333</y>
+<right>0.23421926910299</right>
+<bottom>1.678</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(3) RL1
+\l(1) RL2+π
+\l(22) Lattice N
+\l(23) Lattice Δ
+</Text>
+<Font>Liberation Serif	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.079734219269103</x>
+<y>1.5821666666667</y>
+<right>0.0780730897009967</right>
+<bottom>1.586</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0033222591362126</x>
+<y>1.0531666666667</y>
+<right>0.0598006644518272</right>
+<bottom>0.945833333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+N
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0066445182724252</x>
+<y>1.2448333333333</y>
+<right>0.0581395348837209</right>
+<bottom>1.1375</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.42857142857143</x>
+<y>1.6818333333333</y>
+<right>0.483388704318937</right>
+<bottom>1.5745</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Liberation Serif	12	75	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>0</ScaleLayers>
+</multiLayer>
+<multiLayer>
+eta-bands-2	2	1	3/5/14 1:39 PM
+geometry	539	154	751	426	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	3	6	377	361
+<PageGeometry>0.00403769	0.015873	0.507402	0.955026</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans Serif	11	75	0	0	0
+ScaleFont0	Liberation Serif	12	50	0	0	0
+ScaleFont1	Sans Serif	9	75	0	0	0
+ScaleFont2	Liberation Serif	12	50	0	0	0
+ScaleFont3	Sans Serif	9	75	0	0	0
+AxisFont0	Sans Serif	9	50	0	0	0
+AxisFont1	Sans Serif	9	50	0	0	0
+AxisFont2	Sans Serif	9	50	0	0	0
+AxisFont3	Sans Serif	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1f1c1b	#1f1c1b	#1f1c1b	#1f1c1b
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Delta	0	1	#0000ff	0	1	7	0	#800000	#800000	0.450004	#0000ff	9	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Delta	0	1	#0000ff	0	1.5	7	0	#008080	#008080	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Delta_Mpi2	MT-digitalized-Delta_M-Delta-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-16	0	1	#ff0000	0	1	7	0	#000000	#000000	0.650004	#ff0000	0	1	2	0	0	29	1
+curve	MT-digitalized-Nucleon_Mpi2	MT-digitalized-Nucleon_M-Nuc-20	0	1	#ff0000	0	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1	7	0	#800080	#800080	0.450004	#0000ff	9	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1.5	7	0	#008000	#008000	1	#ffffff	0	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ff00ff	0	1	9	3	#000080	-1	0	#000000	14	1	2	0	0	30	1
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#000000	1	1	1	8
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#000000	1	1	1	8
+curve	physical_1	physical_nucleon	1	0	#800080	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#800000	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	Bratt-Nucleon-Unquenched_mpi2	Bratt-Nucleon-Unquenched_mN	1	0	#008000	0	1	9	4	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	Syritsyn-Nucleon_Unquenched_mpi2	Syritsyn-Nucleon_Unquenched_mN	1	0	#008080	0	1	9	5	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	Yamazaki-Nucleon-Unquenched_mpi2	Yamazaki-Nucleon-Unquenched_mN	1	0	#000000	0	1	9	7	#000000	-1	0	#000000	14	1	2	0	0	29	1
+curve	Alexandrou-Nucleon-Unquenched_mpi2	Alexandrou-Nucleon-Unquenched_mN	1	0	#000000	0	1	9	8	#000000	-1	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Bratt-Nucleon-Unquenched_mpi2	Bratt-Nucleon-Unquenched_mN	Bratt-Nucleon-Unquenched_EmN	1	8	#000000	1	1	1	13
+ErrorBars	0	Bratt-Nucleon-Unquenched_mpi2	Bratt-Nucleon-Unquenched_mN	Bratt-Nucleon-Unquenched_E-mpi2	1	8	#000000	1	1	1	13
+ErrorBars	0	Syritsyn-Nucleon_Unquenched_mpi2	Syritsyn-Nucleon_Unquenched_mN	Syritsyn-Nucleon_Unquenched_E-mpi2	1	8	#000000	1	1	1	14
+ErrorBars	1	Syritsyn-Nucleon_Unquenched_mpi2	Syritsyn-Nucleon_Unquenched_mN	Syritsyn-Nucleon_Unquenched_EmN	1	8	#000000	1	1	1	14
+ErrorBars	0	Yamazaki-Nucleon-Unquenched_mpi2	Yamazaki-Nucleon-Unquenched_mN	Yamazaki-Nucleon-Unquenched_E-mpi2	1	8	#000000	1	1	1	15
+ErrorBars	1	Yamazaki-Nucleon-Unquenched_mpi2	Yamazaki-Nucleon-Unquenched_mN	Yamazaki-Nucleon-Unquenched_EmN	1	8	#000000	1	1	1	15
+ErrorBars	0	Alexandrou-Nucleon-Unquenched_mpi2	Alexandrou-Nucleon-Unquenched_mN	Alexandrou-Nucleon-Unquenched_E-mpi2	1	8	#000000	1	1	1	16
+ErrorBars	1	Alexandrou-Nucleon-Unquenched_mpi2	Alexandrou-Nucleon-Unquenched_mN	Alexandrou-Nucleon-Unquenched_EmN	1	8	#000000	1	1	1	16
+curve	Alexandrou-Nucleon-Quenched_mpi2	Alexandrou-Nucleon-Quenched_mN	1	0	#000000	0	1	9	8	#000000	-1	0	#000000	14	1	2	0	0	29	0
+ErrorBars	0	Alexandrou-Nucleon-Quenched_mpi2	Alexandrou-Nucleon-Quenched_mN	Alexandrou-Nucleon-Quenched_E-mpi2	1	8	#000000	1	1	1	25
+ErrorBars	1	Alexandrou-Nucleon-Quenched_mpi2	Alexandrou-Nucleon-Quenched_mN	Alexandrou-Nucleon-Quenched_EmN	1	8	#000000	1	1	1	25
+curve	Alexandrou-Delta-Unquenched_mpi2	Alexandrou-Delta-Unquenched_mD	1	0	#000000	0	1	9	2	#000080	-1	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#000000	0	1	9	15	#000080	-1	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	Alexandrou-Delta-Unquenched_mpi2	Alexandrou-Delta-Unquenched_mD	Alexandrou-Delta-Unquenched_E-mpi2	1	8	#000080	1	1	1	28
+ErrorBars	1	Alexandrou-Delta-Unquenched_mpi2	Alexandrou-Delta-Unquenched_mD	Alexandrou-Delta-Unquenched_EmD	1	8	#000080	1	1	1	28
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#000080	1	1	1	29
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#000080	1	1	1	29
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#000080	1	1	1	29
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#000080	1	1	1	29
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#000080	1	1	1	29
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#000080	1	1	1	29
+curve	Alexandrou-Delta-Quenched_mpi2	Alexandrou-Delta-Quenched_mD	1	0	#000000	0	1	9	2	#000080	-1	0	#000000	14	1	2	0	0	29	0
+ErrorBars	0	Alexandrou-Delta-Quenched_mpi2	Alexandrou-Delta-Quenched_mD	Alexandrou-Delta-Quenched_E-mpi2	1	8	#000080	1	1	1	38
+ErrorBars	1	Alexandrou-Delta-Quenched_mpi2	Alexandrou-Delta-Quenched_mD	Alexandrou-Delta-Quenched_EmD	1	8	#000080	1	1	1	38
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	8	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.27076411960133</x>
+<y>1.0953333333333</y>
+<right>0.463455149501661</right>
+<bottom>0.922833333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+  -         RL
+ -          RL2+π
+</Text>
+<Font>Liberation Serif	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.013531799729364</x>
+<y>1.272859922179</y>
+<right>0.0209742895805142</right>
+<bottom>1.26614785992218</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>0</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.21177266576455</x>
+<y>1.8724708171206</y>
+<right>0.211096075778078</right>
+<bottom>1.87247081712062</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>0</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.01328903654485</x>
+<y>1.2601666666667</y>
+<right>0.181063122923588</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0033222591362126</x>
+<y>1.0608333333333</y>
+<right>0.181063122923588</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+N
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#ffffff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.43521594684385</x>
+<y>1.6703333333333</y>
+<right>0.490033222591362</right>
+<bottom>1.563</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.01328903654485</x>
+<y>1.9731666666667</y>
+<right>0.430232558139535</right>
+<bottom>1.6435</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+
+\l(14) Bratt            \l(9) Engel
+\l(15) Syritsyn       \l(29) Alexandrou
+\l(16) Yamazaki    \l(30) Gattringer
+\l(17)Alexandrou
+</Text>
+<Font>Liberation Serif	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.019933554817276</x>
+<y>1.977</y>
+<right>0.1578073089701</right>
+<bottom>1.86966666666667</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Lattice N
+</Text>
+<Font>Liberation Serif	11	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.21262458471761</x>
+<y>1.977</y>
+<right>0.345514950166113</right>
+<bottom>1.86966666666667</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Lattice Δ
+</Text>
+<Font>Liberation Serif	11	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<graph>
+ggeometry	383	5	348	363
+<PageGeometry>0.515478	0.0132275	0.468371	0.960317</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)			M (GeV)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	4	5124
+AxesTitleDistance	0	2	2	2
+InvertedTitle	0	1	0	0
+TitleFont	Sans Serif	12	75	0	0	0
+ScaleFont0	Sans Serif	10	75	0	0	0
+ScaleFont1	Liberation Serif	12	50	0	0	0
+ScaleFont2	Liberation Serif	12	50	0	0	0
+ScaleFont3	Sans Serif	10	75	0	0	0
+AxisFont0	Sans Serif	10	50	0	0	0
+AxisFont1	Sans Serif	10	50	0	0	0
+AxisFont2	Sans Serif	10	50	0	0	0
+AxisFont3	Sans Serif	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	eta16_Mpi2	eta16_M-Delta	0	1	#ff8000	1	2	7	0	#ff0000	#ff0000	1	#ff8000	0	1	2	0	0	29	1
+curve	eta20_Mpi2	eta20_M-Delta	0	1	#ff8000	1	2	7	0	#0000ff	#0000ff	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Delta	0	1	#0000ff	0	1	7	0	#000000	#000000	0.450004	#0000ff	9	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Delta	0	1	#0000ff	0	1.5	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta20_Mpi2	eta20_M-Nuc	0	1	#ff8000	1	1	7	0	#00ff00	#00ff00	0.650004	#ff8000	0	1	2	0	0	29	1
+curve	eta16_Mpi2	eta16_M-Nuc	0	1	#ff8000	1	1	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	eta16-pion-oppositesign_Mpi2	eta16-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1	7	0	#8000ff	#8000ff	0.450004	#0000ff	9	1	2	0	0	29	1
+curve	eta20-pion-oppositesign_Mpi2	eta20-pion-oppositesign_M-Nuc	0	1	#0000ff	0	1.5	7	0	#000000	#000000	1	#ffffff	0	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#8000ff	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#000000	0	1	11	14	#000000	#0000a0,0.700008	0	#000000	14	1	2	0	0	29	1
+scale	0	0.85	2	0	6	5	0	0
+scale	1	0.85	2	0	6	5	0	0
+scale	2	0	0.5	0	6	5	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	0	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.9693333333333</y>
+<right>0.182885906040268</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>0</onTop>
+<visible>1</visible>
+<Text>
+ -         RL2
+ -         RL2+π
+</Text>
+<Font>Liberation Serif	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#0000ff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0234899</x>
+<y>1.87</y>
+<right>0.0964899</right>
+<bottom>1.83</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#0000ff</Background>
+<Alpha>0</Alpha>
+<BrushColor>#0000ff</BrushColor>
+<BrushStyle>9</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ff8000</Color>
+<FrameWidth>2</FrameWidth>
+<LineStyle>2</LineStyle>
+<x>0.0234899</x>
+<y>1.94</y>
+<right>0.0964899</right>
+<bottom>1.9</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ff8000</Background>
+<Alpha>166</Alpha>
+<BrushColor>#ff8000</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#0000ff</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.28355704697987</x>
+<y>0.99566666666667</y>
+<right>-0.209731543624161</right>
+<bottom>0.957333333333333</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#0000ff</Background>
+<Alpha>0</Alpha>
+<BrushColor>#0000ff</BrushColor>
+<BrushStyle>9</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Rectangle>
+<Frame>1</Frame>
+<Color>#ff0000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.28355704697987</x>
+<y>1.0608333333333</y>
+<right>-0.209731543624161</right>
+<bottom>1.0225</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ff0000</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ff0000</BrushColor>
+<BrushStyle>0</BrushStyle>
+<LinkedLayer>-1</LinkedLayer>
+</Rectangle>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.42114093959732</x>
+<y>1.6741666666667</y>
+<right>0.182885906040268</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.2601666666667</y>
+<right>0.182885906040268</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.016778523489933</x>
+<y>1.0148333333333</y>
+<right>0.182885906040268</right>
+<bottom>1.8505</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+N
+</Text>
+<Font>Liberation Serif	12	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>1</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Bratt-Nucleon-Unquenched	30	4	3/5/14 2:39 PM
+geometry	378	130	670	299	
+header	mpi2[X]	E-mpi2[xEr]	mN[Y]	EmN[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.0858	0.0005	1.107	0.011
+1	0.1267	0.0004	1.155	0.008
+2	0.2451	0.0006	1.288	0.008
+3	0.356	0.001	1.397	0.008
+4	0.473	0.003	1.497	0.01
+5	0.575	0.003	1.576	0.008
+</data>
+</table>
+<table>
+Syritsyn-Nucleon_Unquenched	30	4	3/5/14 3:15 PM
+geometry	620	47	514	299	
+header	mpi2[X]	E-mpi2[xEr]	mN[Y]	EmN[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.088209	0.00297	1.109	0.021
+1	0.108241	0.00329	1.136	0.02
+2	0.126025	0.00426	1.172	0.021
+3	0.162409	0.005642	1.221	0.021
+</data>
+</table>
+<table>
+Yamazaki-Nucleon-Unquenched	30	4	3/5/14 3:18 PM
+geometry	406	154	521	299	
+header	mpi2[X]	E-mpi2[xEr]	mN[Y]	EmN[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.10850436	0.00085644	1.154	0.007
+1	0.17338896	0.00099936	1.216	0.007
+2	0.308025	0.001332	1.381	0.012
+3	0.44635761	0.002057748	1.546	0.012
+</data>
+</table>
+<table>
+Alexandrou-Nucleon-Quenched	30	4	3/5/14 3:20 PM
+geometry	169	93	489	299	
+header	mpi2[X]	E-mpi2[xEr]	mN[Y]	EmN[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.316969	0.01	1.267	0.011
+1	0.2401	0.01	1.19	0.013
+2	0.1681	0.005	1.109	0.013
+</data>
+</table>
+<table>
+Alexandrou-Nucleon-Unquenched	30	4	3/5/14 3:21 PM
+geometry	739	43	473	299	
+header	mpi2[X]	E-mpi2[xEr]	mN[Y]	EmN[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.477481	0.015	1.485	0.018
+1	0.259081	0.01	1.28	0.026
+2	0.147456	0.01	1.083	0.018
+3	0.1246	0.0014	1.191	0.019
+</data>
+</table>
+<table>
+Alexandrou-Delta-Unquenched	30	4	3/5/14 3:45 PM
+geometry	863	124	473	299	
+header	mpi2[X]	E-mpi2[xEr]	mD[Y]	EmD[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.477481	0.015	1.687	0.015
+1	0.259081	0.01	1.559	0.019
+2	0.147456	0.01	1.395	0.018
+3	0.1246	0.0014	1.533	0.019
+</data>
+</table>
+<table>
+Alexandrou-Delta-Quenched	30	4	3/5/14 3:46 PM
+geometry	0	594	1680	657	minimized	
+header	mpi2[X]	E-mpi2[xEr]	mD[Y]	EmD[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.316969	0.01	1.47	0.015
+1	0.2401	0.01	1.425	0.016
+2	0.1681	0.005	1.382	0.019
+</data>
+</table>
+<table>
+Gattringer-Delta-Unquenched	30	4	12/06/11 15:56
+geometry	720	59	641	464	
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.101	1.443	0.008	0.022
+1	0.22	1.498	0.004	0.015
+2	0.278	1.528	0.003	0.023
+</data>
+</table>
+<folder>	masses-PhD	11/27/13 9:06 AM	
+<open>1</open>
+<table>
+physical	30	4	26/09/11 10:40
+geometry	113	115	445	220	
+header	1[X]	vector-meson[Y]	delta-omega[Y]	nucleon[Y]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.01901641	0.77	1.232	0.938
+1	0.46991025	1.02	1.672	
+</data>
+</table>
+<table>
+nucleon-MT-fromGernot	30	2	28/11/11 12:11
+geometry	1272	346	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0	0.902
+1	0.05	0.978
+2	0.1	1.049
+3	0.15	1.106
+4	0.2	1.161
+5	0.25	1.218
+6	0.3	1.266
+7	0.35	1.314
+8	0.4	1.358
+9	0.45	1.401
+10	0.5	1.441
+</data>
+</table>
+<table>
+nucleon-lattice	30	4	28/11/11 14:33
+geometry	maximized	active
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+<col nr="0">
+col("1")*col("1")
+</col>
+<col nr="2">
+2*col("1")*col("3")
+</col>
+<col nr="3">
+col("4")/2
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.477481	1.485	0.011056	0.018
+1	0.259081	1.28	0.008144	0.026
+2	0.108241	1.136	0.00329	0.02
+3	0.088209	1.109	0.00297	0.021
+4	0.126025	1.172	0.00426	0.021
+5	0.162409	1.221	0.005642	0.021
+6	0.108241	1.154	0.000658	0.007
+7	0.173056	1.216	0.000832	0.007
+8	0.308025	1.381	0.00111	0.012
+9	0.446224	1.546	0.002672	0.012
+10	0.085849	1.107	0.000586	0.001
+11	0.126736	1.155	0.0005696	0.008
+12	0.245025	1.288	0.000594	0.008
+13	0.356409	1.397	0.0009552	0.008
+14	0.473344	1.497	0.002752	0.01
+</data>
+</table>
+<table>
+MT-at-07-05-2012	30	4	07/05/12 8:51
+geometry	187	675	642	220	
+header	mq[X]	mpi[Y]	mpi2[X]	m-baryon[Y]
+ColWidth	100	100	100	100	
+<com>
+<col nr="2">
+col("mpi")*col("mpi")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.0037	0.13957	0.0194797849	1.2171
+1	0.01996	0.3241	0.10504081	1.3185
+2	0.03622	0.4408	0.19430464	1.4102
+3	0.05248	0.536	0.287296	1.4956
+4	0.06874	0.6195	0.38378025	1.5756
+5	0.085	0.696	0.484416	1.6526
+</data>
+</table>
+<multiLayer>
+Graph3	1	1	26/09/11 10:38
+geometry	661	-13	374	541	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	4	356	478
+<PageGeometry>0.010929	0.00811359	0.972678	0.969574</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>0</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)<br>	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Sans	12	75	0	0	0
+ScaleFont1	Sans	12	75	0	0	0
+ScaleFont2	Sans	12	75	0	0	0
+ScaleFont3	Sans	12	75	0	0	0
+AxisFont0	Sans	12	50	0	0	0
+AxisFont1	Sans	12	50	0	0	0
+AxisFont2	Sans	12	50	0	0	0
+AxisFont3	Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	physical_1	physical_vector-meson	1	0	#00ff00	0	1	11	14	#0000a0	#0000a0	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#0000ff	0	1	11	14	#0000a0	#0000a0	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#ff00ff	0	1	11	14	#0000a0	#0000a0	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ffff00	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#808000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#800000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	calculated_1	calculated_2	0	1	#808080	0	2.5	7	0	#008000	#008000	0	#000000	14	1	2	0	0	31	1
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#008000	1	1	1	3
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#008000	1	1	1	3
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#008000	1	1	1	4
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#008000	1	1	1	4
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#008000	1	1	1	5
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#008000	1	1	1	5
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#008000	1	1	1	6
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#008000	1	1	1	6
+curve	nucleon-MT-fromGernot_1	nucleon-MT-fromGernot_2	0	1	#808080	0	2.5	7	0	#008080	#008080	0	#000000	14	1	2	0	0	29	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#008000	1	1	1	17
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#008000	1	1	1	17
+scale	0	0.7	1.9	0	13	1	0	0
+scale	1	0.7	1.9	0	13	5	0	0
+scale	2	-0.1	0.6	0	8	1	0	0
+scale	3	-0.1	0.6	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	-1	0	-1
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.080952380952381</x>
+<y>1.8824390243902</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(10) MT
+\l(5) physical
+\l(6) lattice
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.10714285714286</x>
+<y>1.2180487804878</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Δ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.49761904761905</x>
+<y>1.0248780487805</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Φ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.095238095238095</x>
+<y>0.86682926829268</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>ρ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.48809523809524</x>
+<y>1.6775609756098</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Ω</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.076190476190476</x>
+<y>0.96926829268293</y>
+<right>0.19375</right>
+<bottom>1.7816</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>N</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Gráfica1	1	1	06/12/11 17:34
+geometry	1474	302	374	541	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	4	356	478
+<PageGeometry>0.010929	0.00811359	0.972678	0.969574</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>0</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)<br>	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Sans	12	75	0	0	0
+ScaleFont1	Sans	12	75	0	0	0
+ScaleFont2	Sans	12	75	0	0	0
+ScaleFont3	Sans	12	75	0	0	0
+AxisFont0	Sans	12	50	0	0	0
+AxisFont1	Sans	12	50	0	0	0
+AxisFont2	Sans	12	50	0	0	0
+AxisFont3	Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	physical_1	physical_vector-meson	1	0	#00ff00	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#0000ff	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#ff00ff	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ffff00	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#808000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#800000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	calculated_1	calculated_2	0	1	#800080	0	2.5	7	0	#008000	#008000	0	#000000	14	1	2	0	0	31	1
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#008000	1	1	1	3
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#008000	1	1	1	3
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#008000	1	1	1	4
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#008000	1	1	1	4
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#008000	1	1	1	5
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#008000	1	1	1	5
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#008000	1	1	1	6
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#008000	1	1	1	6
+curve	nucleon-MT-fromGernot_1	nucleon-MT-fromGernot_2	0	1	#ff0000	0	2.5	7	0	#008080	#008080	0	#000000	14	1	2	0	0	29	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#008000	1	1	1	17
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#008000	1	1	1	17
+scale	0	0.3	2	0	4	1	0	0
+scale	1	0.3	2	0	9	5	0	0
+scale	2	0	0.5	0	6	1	0	0
+scale	3	0	0.5	0	6	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	-1	0	-1
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.027210884353741</x>
+<y>1.9585365853659</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(10) MT
+\l(5) physical
+\l(6) lattice
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0068027210884354</x>
+<y>1.2453658536585</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Δ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.43877551020408</x>
+<y>1.0131707317073</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Φ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.011904761904762</x>
+<y>0.85975609756098</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>ρ</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.42517006802721</x>
+<y>1.6931707317073</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Ω</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.017006802721088</x>
+<y>0.97170731707317</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>N</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.22789115646259</x>
+<y>0.53634146341463</y>
+<right>0.226890756302521</right>
+<bottom>1.83662337662338</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>M(0)</b>
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+plot_at_07_05_2012	1	1	07/05/12 8:54
+geometry	1433	14	374	541	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	4	4	356	478
+<PageGeometry>0.010929	0.00811359	0.972678	0.969574</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>0</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	<b>m<sub>π</sub><sup>2</sup> (GeV<sup>2</sup>)<br></b>	<b>M (GeV)</b>			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Computer Modern Concrete	14	50	0	0	0
+ScaleFont1	Sans	12	75	0	0	0
+ScaleFont2	Computer Modern Concrete	14	50	0	0	0
+ScaleFont3	Sans	12	75	0	0	0
+AxisFont0	Sans	12	50	0	0	0
+AxisFont1	Sans	12	50	0	0	0
+AxisFont2	Sans	12	50	0	0	0
+AxisFont3	Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	physical_1	physical_vector-meson	1	0	#00ff00	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_delta-omega	1	0	#0000ff	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	physical_1	physical_nucleon	1	0	#ff00ff	0	1	11	14	#ff8000	#ff8000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ffff00	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#808000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#800000	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#008000	1	1	1	3
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#008000	1	1	1	3
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#008000	1	1	1	4
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#008000	1	1	1	4
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#008000	1	1	1	5
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#008000	1	1	1	5
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#008000	1	1	1	6
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#008000	1	1	1	6
+curve	nucleon-MT-fromGernot_1	nucleon-MT-fromGernot_2	0	1	#ff0000	0	2.5	7	0	#008080	#008080	0	#000000	14	1	2	0	0	29	1
+curve	nucleon-lattice_1	nucleon-lattice_2	1	0	#000080	0	1	7	3	#008000	#008000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_3	1	8	#008000	1	1	1	16
+ErrorBars	1	nucleon-lattice_1	nucleon-lattice_2	nucleon-lattice_4	1	8	#008000	1	1	1	16
+curve	MT-at-07-05-2012_mpi2	MT-at-07-05-2012_m-baryon	0	1	#000080	0	2.5	7	0	#000080	#000080	0	#000000	14	1	2	0	0	29	1
+scale	0	0.7	1.8	0	12	1	0	0
+scale	1	0.7	1.8	0	12	1	0	0
+scale	2	0	0.5	0	6	1	0	0
+scale	3	0	0.5	0	6	1	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	-1	0	-1
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0051903114186851</x>
+<y>1.7835</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(5) <b>physical</b>
+\l(6) <b>lattice</b>
+\l(26) <b>MT</b>
+\l(27) <b>AFW</b>
+</Text>
+<Font>Computer Modern Concrete	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.0051903114186851</x>
+<y>1.316</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Δ</b>
+</Text>
+<Font>Symbol	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.44117647058824</x>
+<y>1.01625</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Φ</b>
+</Text>
+<Font>Symbol	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.0017301038062284</x>
+<y>0.84575</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>ρ</b>
+</Text>
+<Font>Symbol	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.41522491349481</x>
+<y>1.70375</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Ω</b>
+</Text>
+<Font>Symbol	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.0017301038062284</x>
+<y>0.9365</y>
+<right>0.226890756302521</right>
+<bottom>1.69146666666667</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>N</b>
+</Text>
+<Font>Sans Serif	12	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<folder>	Delta	28/09/11 7:46	
+<open>1</open>
+<table>
+calculated	32	3	23/04/11 11:15
+geometry	641	0	641	464	active
+header	1[X]	2[Y]	3[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0.019	1.257	0.0065
+1	0.076	1.34	0.0055
+2	0.13	1.407	0.004
+3	0.215	1.496	0.008
+4	0.272	1.553	0.01
+5	0.36	1.631	0.013
+6	0.423	1.682	0.014
+7	0.476	1.721	0.015
+</data>
+</table>
+<table>
+lattice-Engel	31	4	23/04/11 17:03
+geometry	1282	464	638	462	
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.104516	1.438567	0.0028693886	0.01855824
+1	0.220171	1.4322355	0.0038339687	0.016199098
+2	0.2762488	1.5593048	0.0066738995	0.023317251
+</data>
+</table>
+<table>
+lattice-Alexandrou-NucPhysA825	30	4	23/04/11 17:11
+geometry	0	633	1680	657	minimized	
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.148	1.395	0.006	0.018
+1	0.2591	1.559	0.0081	0.019
+2	0.4775	1.687	0.0111	0.015
+</data>
+</table>
+<table>
+lattice-Zanotti-PRD68	30	4	12/06/11 14:13
+geometry	0	464	641	462	
+header	1[X]	2[Y]	3[xEr]	4[yEr]
+ColWidth	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.306	1.627	0.003	0.036
+1	0.454	1.71	0.003	0.024
+2	0.581	1.781	0.004	0.019
+</data>
+</table>
+<table>
+lattice-Alexandrou-0803-3190	30	3	11/27/13 9:02 AM
+geometry	604	307	445	220	
+header	1[X]	2[Y]	3[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0.085	1.453	0.015
+1	0.111	1.509	0.01
+2	0.141	1.559	0.006
+3	0.174	1.599	0.005
+4	0.211	1.635	0.01
+5	0.272	1.661	0.02
+</data>
+</table>
+<multiLayer>
+mass_plot	1	1	12/06/11 14:23
+geometry	217	58	641	462	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	5	574	401
+<PageGeometry>0.00947867	0.0120773	0.906793	0.968599</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>0</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>0</MissingDataGap>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	m<sub>π</sub><sup>2</sup>  (GeV<sup>2</sup>)	M (GeV)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	4	2	4	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans Serif	12	75	0	0	0
+ScaleFont0	Sans Serif	14	75	0	0	0
+ScaleFont1	Sans Serif	10	75	0	0	0
+ScaleFont2	Sans Serif	14	75	0	0	0
+ScaleFont3	Sans Serif	10	75	0	0	0
+AxisFont0	Sans Serif	10	50	0	0	0
+AxisFont1	Sans Serif	10	50	0	0	0
+AxisFont2	Sans Serif	10	50	0	0	0
+AxisFont3	Sans Serif	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	calculated_1	calculated_2	2	1	#000000	1	1.5	5	1	#000000	-1	0	#000000	14	1	2	0	0	31	1
+ErrorBars	1	calculated_1	calculated_2	calculated_3	2	8	#000000	1	1	1	0
+curve	lattice-Engel_1	lattice-Engel_2	1	0	#ff0000	0	1	7	7	#ff0000	#ff0000	0	#000000	14	1	2	0	0	30	1
+curve	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	1	0	#00ff00	0	1	7	3	#808000	#808000	0	#000000	14	1	2	0	0	29	1
+curve	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	1	0	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	0	lattice-Engel_1	lattice-Engel_2	lattice-Engel_3	1	8	#ff0000	1	1	1	2
+ErrorBars	0	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_3	1	8	#0000ff	1	1	1	4
+ErrorBars	1	lattice-Zanotti-PRD68_1	lattice-Zanotti-PRD68_2	lattice-Zanotti-PRD68_4	1	8	#0000ff	1	1	1	4
+ErrorBars	1	lattice-Engel_1	lattice-Engel_2	lattice-Engel_4	1	8	#ff0000	1	1	1	2
+ErrorBars	1	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_4	1	8	#808000	1	1	1	3
+ErrorBars	0	lattice-Alexandrou-NucPhysA825_1	lattice-Alexandrou-NucPhysA825_2	lattice-Alexandrou-NucPhysA825_3	1	8	#808000	1	1	1	3
+curve	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	1	0	#ff00ff	0	1	7	8	#ff00ff	#ff00ff	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_4	1	8	#ff00ff	1	1	1	11
+ErrorBars	0	Gattringer-Delta-Unquenched_1	Gattringer-Delta-Unquenched_2	Gattringer-Delta-Unquenched_3	1	8	#ff00ff	1	1	1	11
+scale	0	0.6	1.8	0	7	4	0	0
+scale	1	0.6	1.8	0	7	5	0	0
+scale	2	0	0.6	0	7	5	0	0
+scale	3	0	0.6	0	7	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	3	3	3	3
+MinorTicks	3	3	3	3
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	-1	0	-1
+EnabledTickLabels	1	0	1	0
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.023076923076923</x>
+<y>1.7385542168675</y>
+<right>0.142794759825327</right>
+<bottom>1.65329153605016</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)Faddeev
+\l(3)Engel
+\l(4)Alexandrou
+\l(5)Zanotti
+\l(13)Gattringer
+\l(12)Physical
+\l(16)%(16)
+</Text>
+<Font>Sans Serif	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.030288461538462</x>
+<y>0.71927710843374</y>
+<right>0.142794759825327</right>
+<bottom>1.65329153605016</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Δ
+</Text>
+<Font>Sans Serif	14	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>0</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.54663461538462</x>
+<y>1.5289156626506</y>
+<right>0.142794759825327</right>
+<bottom>1.65329153605016</bottom>
+<attachTo>0</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+Ω
+</Text>
+<Font>Sans Serif	14	75	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+</folder>
+</folder>
+<open>1</open>

@@ -7,6 +7,16 @@
 \usepackage{bbm}
 \usepackage{dsfont}
 \usepackage{tuetitle}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage{textcomp}         
+\usepackage{array}
+\usepackage{bbm}
+\usepackage{nicefrac}
+\usepackage{slashed}
 \usepackage[sort&compress,square,comma,numbers]{natbib}
 %numbers added to natbib, equivalent to  \setcitestyle{numbers} 
 \usepackage[UKenglish]{babel}
@@ -107,6 +117,8 @@
 \newcommand{\tr}{\,\mathrm{tr}\,}
 \newcommand{\dslash}{\partial \hskip -0.5em /}
 \newcommand{\Aslash}{A \hskip -0.7em /}
+\newcommand{\Slash}[1]{\ooalign{\hfil/\hfil\crcr$#1$}}
+
 
 
 \renewcommand{\imath}{\mathrm{i}}
@@ -129,17 +141,19 @@
 %-----------------------------------------------------------------------------
 \begin{document}
 %\frontmatter	
+{\singlespacing
 \tableofcontents
+}
 %\mainmatter
 \include{Intro}
 \include{QCD_low}
-\end{document}
+%\end{document}
 \include{DSE}
 \include{BSE}
 \include{spectra}
 \include{Fadeev}
 \include{EM_properties}
-%\include{DSE}
+
 %-----------------------------------------------------------------------------
 %\backmatter
 %\addcontentsline{toc}{chapter}{Bibliography}
