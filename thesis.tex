@@ -8,6 +8,7 @@
 \usepackage{dsfont}
 \usepackage{tuetitle}
 \usepackage{multirow}
+\usepackage{epstopdf}
 \usepackage{setspace}
 \usepackage{longtable}
 \usepackage{graphicx}
@@ -90,7 +91,7 @@
 \newcommand{\cV}{\mathcal{V}}
 \newcommand{\cH}{\mathcal{H}}
 \newcommand{\ONE}{\mathbbm{1}}%{ {\bf 1} } 
-\newcommand{\Eq}[1]{(\ref{#1})}
+\newcommand{\Eq}[1]{Eq.\;(#1)}
 \newcommand{\sla}[1]{#1 \!\!\!\diagup}
 \newcommand{\Sla}[1]{\mkern-4mu \not \mkern-6mu #1}
 
@@ -118,6 +119,7 @@
 \newcommand{\dslash}{\partial \hskip -0.5em /}
 \newcommand{\Aslash}{A \hskip -0.7em /}
 \newcommand{\Slash}[1]{\ooalign{\hfil/\hfil\crcr$#1$}}
+\newcommand{\beware}{\marginpar{\bf beware}}
 
 
 
@@ -152,12 +154,13 @@
 \include{BSE}
 \include{spectra}
 \include{Fadeev}
-\include{EM_properties}
+\include{conclusion}
+%\include{EM_properties}
 
 %-----------------------------------------------------------------------------
 %\backmatter
-%\addcontentsline{toc}{chapter}{Bibliography}
-%\bibliographystyle {utcaps} 
-%\bibliography{$HOME/bibliography/biblio}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{h-physrev} 
+\bibliography{thesis}
 
 \end{document}
