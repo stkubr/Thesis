@@ -47,21 +47,6 @@ This letter is organized as follows: in Section \ref{sec:framework} we review th
 
 \section{Fadeev equation}
 \label{sec:framework}
-
-\begin{figure*}[hbtp]
- \begin{center}
-  \includegraphics[width=0.86\textwidth,clip]{figures/full_BSE.eps}
- \end{center}
- \caption{Diagrammatic representation of the three-body Bethe-Salpeter equation.}\label{fig:faddeev_eq}
-%\end{figure*}
-%\begin{figure*}[hbtp]
- \begin{center}
-  \includegraphics[width=0.53\textwidth,clip]{figures/system_with_pion.eps}
- \end{center}
- \caption{Diagrammatic representation of the pion BSE, two-body kernel and quark DSE when pion-exchange contributions are included. Big and small blobs represent full and bare vertices, respectively.}\label{fig:system_with_pion}
-\end{figure*}
-
-
 The mass and internal structure of baryons are given, in a covariant
 Faddeev approach, by the solutions of the three-body equation
 \begin{equation}\label{eq:3bBSEcompact}
@@ -72,12 +57,23 @@ The spin-momentum part of the full amplitude $\Psi$ depends on
 the total and two relative momenta of the three valence quarks inside 
 the baryon. As discussed in more detail in Section \ref{subsec:internal_composition}, 
 this amplitude contains all possible spin and orbital angular momentum contributions.
-
+\begin{figure*}[h]
+ \begin{center}
+  \includegraphics[width=0.99\textwidth]{figures/full_BSE}
+ \end{center}
+ \caption{Diagrammatic representation of the three-body Bethe-Salpeter equation.}\label{fig:faddeev_eq}
+\end{figure*}
 The quark propagators are obtained from their respective DSE
 \begin{equation}\label{eq:quarkDSE}
  S^{-1}(p)=S^{-1}_0(p)-Z_{1f}\int_q \Gamma^\nu_{gqq,0}
 D_{\mu\nu}(p-q)\Gamma^\nu_{gqq}(p,q)S(q)\,\,,
 \end{equation}
+\begin{figure*}[h]
+ \begin{center}
+  \includegraphics[width=0.65\textwidth]{figures/system_with_pion}
+ \end{center}
+ \caption{Diagrammatic representation of the pion BSE, two-body kernel and quark DSE when pion-exchange contributions are included. Big and small blobs represent full and bare vertices, respectively.}\label{fig:system_with_pion}
+\end{figure*}
 %
 where the integration over the four-momentum $q$ is abbreviated by
 $\int_q \equiv \int d^4 q/ {(2\pi)^4}$, $S_0$ is the (renormalized) 
@@ -200,7 +196,7 @@ q^{(1)} &= q-k/2,& q^{(2)} &= q-k/2, & q^{(3)} &= q+k\,\,.\nonumber\\
 \end{align}
 %
 
-\subsection{Beyond Rainbow-Ladder: Pion exchange}
+\subsection*{Beyond Rainbow-Ladder: Pion exchange}
 \label{subsec:pion_exchange}
 
 
@@ -447,7 +443,7 @@ as expected from the axWTI. The corresponding numbers are given in
 Tab.~\ref{tab:masses}.
 
 
-\subsection{Nucleon and Delta masses and Sigma terms}
+\subsection*{Nucleon and Delta masses and Sigma terms}
 
 The calculated masses of the Nucleon and the Delta, with and without the 
 pion-exchange kernel, are shown in Tab.~\ref{tab:masses}. In the RL1 framework
@@ -568,7 +564,7 @@ with two-pion intermediate states
 material impact on the slope close to the physical point and therefore result
 in substantial changes in the sigma terms.
 
-\subsection{Internal composition}\label{subsec:internal_composition}
+\subsection*{Internal composition}\label{subsec:internal_composition}
 
 Some insight into the internal structure of the baryon can be gained by 
 studying the relative importance of the different partial-wave sectors. 
