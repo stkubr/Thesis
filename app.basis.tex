@@ -1,0 +1,114 @@
+\chapter{Dirac basis of meson BSE}
+\label{app:basis}
+
+For the case of $J=1$ we can immediately write down the two rank 1 tensors for a bound state of two
+fermions: they are the transversely projected quantities $Q_\mu$ and $T_\mu$ defined 
+%
+\begin{align}\label{eqn:transverseprojectors}
+Q_{\mu} = \tau^{(t)}_{\mu\nu}\; r^\nu\;,\qquad
+T_{\mu} = \tau^{(t)}_{\mu\alpha}\; \tau^{(Q)}_{\alpha\nu}\gamma^\nu\;.
+\end{align}
+%
+Here $Q$ is the same quantity as defined in Eq.~\eqref{eqn:transverseQ} and we introduced the 
+additional transverse projector $\tau^{(Q)}_{\alpha\nu}$ so that the resulting basis is 
+conveniently orthogonal. The explicit components of this basis can be found {\it e.g.} in 
+Ref.~\cite{Maris:1999nt}.
+
+
+%
+%
+%
+%
+%
+For total angular momentum $J=2$ we construct the $2$-fold tensor products of $Q_{\mu_i}$ and 
+$T_{\mu_i}$. Since the product of two or more $T_{\mu_i}$ is degenerate, this gives 
+%
+\begin{align}
+  \tilde{Q}_{\mu_1\mu_2} &= Q_{\mu_1}Q_{\mu_2} \; , \\
+  \tilde{T}_{\mu_1\mu_2} &=T_{(\mu_1}Q_{\mu_2)} \;,%+ T_{\mu_2}Q_{\mu_1} \; \; ,
+\end{align}
+%
+where ${(\ldots)}$ denotes the symmetrization of the indices without normalization 
+$\nicefrac{1}{J!}$.
+%
+To satisfy the criteria of being angular momentum tensors we then subtract the trace-part to give~\cite{LlewellynSmith:1969az,Krassnigg:2010mh}
+%
+\begin{align}
+  Q_{\mu_1\mu_2} &= Q_{\mu_1} Q_{\mu_2} - \frac{1}{3}Q^2 \tau_{\mu_1\mu_2} \;, \\
+  T_{\mu_1\mu_2} &= T_{(\mu_1} Q_{\mu_2)} -\frac{2}{3} \Sla{Q}\tau_{\mu_1\mu_2}\;.
+    %Q_{\mu_1\mu_2} &= \tilde{Q}_{\mu_1\mu_2} - \frac{1}{3}\tau_{\mu_1\mu_2}\tilde{Q}^{\kappa}_{\phantom{\kappa}\kappa} \nonumber \\
+  %&= Q_{\mu_1} Q_{\mu_2} - \frac{1}{3}Q^2 \tau_{\mu_1\mu_2} \;, \\
+  %T_{\mu_1\mu_2} &= \tilde{T}_{\mu_1\mu_2} - \frac{1}{3}\tau_{\mu_1\mu_2}\tilde{T}^{\kappa}_{\phantom{\kappa}\kappa} \nonumber \\
+  %&= T_{(\mu_1} Q_{\mu_2)} -\frac{2}{3} \Sla{Q}\tau_{\mu_1\mu_2}\;.
+\end{align}
+The explicit components of this basis can be found {\it e.g.} in Ref.~\cite{Krassnigg:2010mh}.
+%
+%
+For total angular momentum $J=3$ we construct the $3$-fold tensor products of $Q_{\mu_i}$ and 
+$T_{\mu_i}$
+%
+\begin{align}
+  \tilde{Q}_{\mu_1\mu_2\mu_3} &= Q_{\mu_1}Q_{\mu_2}Q_{\mu_3} \; , \\
+  \tilde{T}_{\mu_1\mu_2\mu_3} &= T_{(\mu_1}Q_{\mu_2}Q_{\mu_3)}\;.
+\end{align}
+%
+To satisfy the requirements of angular momentum tensors we subtract the trace part, yielding
+%
+\begin{align}
+  Q_{\mu_1\mu_2\mu_3} &= \tilde{Q}_{\mu_1\mu_2\mu_3} - \frac{1}{5} 
+   \tau_{(\mu_1\mu_2}\tilde{Q}^{\kappa\kappa}_{\phantom{\kappa\kappa}\mu_3)}  \;\; , \nonumber\\
+  &= Q_{\mu_1}Q_{\mu_2}Q_{\mu_3} - \frac{ 1 }{5}Q^2 
+   \tau_{(\mu_1\mu_2} Q_{\mu_3)} \; \;, \\
+  T_{\mu_1\mu_2\mu_3} &=\tilde{T}_{\mu_1\mu_2\mu_3} -\frac{1}{5} 
+   \tau_{(\mu_1\mu_2}\tilde{T}^{\kappa\kappa}_{\phantom{\kappa\kappa}\mu_3)}  \nonumber \\
+  &= T_{(\mu_1}Q_{\mu_2} Q_{\mu_3)} - \frac{1}{5} 
+   2\Sla{Q}\tau_{(\mu_1\mu_2}Q_{\mu_3)}  \nonumber \\
+   & - \frac{1}{5} Q^2\tau_{(\mu_1\mu_2} T_{\mu_3)}   \;,
+\end{align}
+%
+which has not been explored in this approach before. The explicit representation of this basis is given by
+%
+\begin{align}
+%
+\Gamma^{(\ONE)}_{\mu_1\mu_2\mu_3}(r,t) &= 
+   Q_{\mu_1\mu_2\mu_3} \left[ \lambda_1 \ONE + \lambda_2\slashed{t} +\lambda_3 \slashed{Q} + \lambda_4\slashed{Q}\slashed{t}  \right]\nonumber\\
+ &+T_{\mu_1\mu_2\mu_3}\; \left[ \lambda_5 \ONE + \lambda_6\slashed{t} +\lambda_7 \slashed{Q} + \lambda_8\slashed{Q}\slashed{t}  \right]\;,
+%
+\end{align}
+with $\lambda_i=\lambda_i(r,t)$ scalar coefficients. Multiplying through by $\gamma_5$ would yield the 
+$\Gamma^{(5)}_{\mu_1\mu_2\mu_3}(r,t)$ basis decomposition. \\
+
+The quantum numbers of a meson in the non-relativistic quark model are obtained from the spin, $S$, 
+and relative orbital angular momentum $L$ of the $q\bar{q}$ system, which combine to give the total 
+spin $J=L\oplus S$. The total parity, $P$, charge parity, $C$, and $G$ parity are given by
+%
+\begin{align}
+P\left(q\bar{q}\right) &= -(-1)^{L}\;, \\
+C\left(q\bar{q}\right) &= \phantom{-}(-1)^{L+S}\;, \\
+G\left(q\bar{q}\right) &=\phantom{-}(-1)^{L+S+I}\;,  
+\end{align}
+%
+where $C$ parity only applies to charge neutral states and is generalized to $G$ parity for isospin $I=1$.\\
+
+Thus, the quark model yields the possible $J^{PC}$ quantum numbers in Table~\ref{tab:qmodel}.
+%
+This leaves us with five states (for $J\le3$) that are considered exotic:
+$J^{PC} = 0^{--}$, $J^{PC} = 0^{+-}$, $J^{PC} = 1^{-+}$, $J^{PC} = 2^{+-}$,  and $J^{PC} = 3^{-+}$.
+%
+\begin{table}[!h]
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\stretch{1}}}lll|lll|lll|lll|lll@{}}
+\hline
+\hline
+L & S & $J^{PC}$ & L & S & $J^{PC}$ & L & S & $J^{PC}$ & L & S & $J^{PC}$ & L & S & $J^{PC}$ \\
+\hline
+0 & 0 & $0^{-+}$ & 1 & 0 & $1^{+-}$ & 2 & 0 & $2^{-+}$ & 3 & 0 & $3^{+-}$ & 4 & 0 & $4^{-+}$ \\
+0 & 1 & $1^{--}$ & 1 & 1 & $0^{++}$ & 2 & 1 & $1^{--}$ & 3 & 1 & $2^{++}$ & 4 & 1 & $3^{--}$ \\
+  &   &          & 1 & 1 & $1^{++}$ & 2 & 1 & $2^{--}$ & 3 & 1 & $3^{++}$ & 4 & 1 & $4^{--}$ \\
+  &   &          & 1 & 1 & $2^{++}$ & 2 & 1 & $3^{--}$ & 3 & 1 & $4^{++}$ & 4 & 1 & $5^{--}$ \\  
+
+\hline
+\hline
+\end{tabular*}
+\caption{Allowed quantum numbers for a neutral $q\bar{q}$ state in the quark model. \label{tab:qmodel}}
+\end{table}

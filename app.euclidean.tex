@@ -1,0 +1,73 @@
+\chapter{Euclidean space and kinematics}
+\label{app:euclidean}
+\section*{Metrics}
+Lattice QCD and most of nonperturbative quantum field theory approaches are peformed in Euclidead metric for practical reasons. Euclideand 4-vectors can be obtained from the Minkowski 4-vectors via the Wick rotation \cite{PhysRev.96.1124}. Throughout this work we consider the quark \DSE and meson \BSE formulated in Euclidean momentum space. In this case, the metric tensor is given by $g_{\mu\nu}=\delta_{\mu\nu}$. The space-time and momentum-energy vectors are related by:
+\beqa
+t^E = it^M \\
+x^E = x^M \\
+E^E = iE^M \\
+p^E = p^M \;,
+\eeqa
+where $E$ and $M$ denote Euclidean and Minkowski space. The Euclidean representation of fundamental hermitian Dirac matrices reads as following:
+\beqa
+\notag \gamma^1 &=
+\begin{pmatrix} 
+0 & 0 & 0 & -i \\
+0 & 0 & -i & 0 \\ 
+0 & i & 0 & 0 \\
+i & 0 & 0 & 0 
+\end{pmatrix}, \quad
+\gamma^2 &= \begin{pmatrix}
+0 & 0 & 0 & -1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+-1 & 0 & 0 & 0 \end{pmatrix} \\
+\gamma^3 &= \begin{pmatrix}
+0 & 0 & -i & 0 \\
+0 & 0 & 0 & i \\
+i & 0 & 0 & 0 \\
+0 & -i & 0 & 0 \end{pmatrix},\quad
+\gamma^4 &= \;\;\; \begin{pmatrix}
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 \\
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \end{pmatrix}.
+\eeqa
+In this representation, $\gamma_5=i\gamma_1\gamma_2\gamma_3\gamma_4$ is diagonal. Changing the space also change the product rule and the integration measure: 
+\beqa
+	\gamma^M \dot p^M &=& -i\gamma^E \dot p^E \\
+	q^M \dot p^M &=& - q^E \dot p^E \label{app:shell} \\
+	\int d^4 k^M &=& -i \int d^4 k^E
+\eeqa
+Apparently the definition of the mass shell of the free particle in Euclidean space: $P^2 = -M^2$ follows from Eq.(\ref{app:shell}).
+
+\section*{Kinematics}
+It is convenient to write 4-dimensional integration measure in spherical coordinates, so that the explicit form of the momentum integrations reads as:
+\beqa
+	\int \frac{d^4k}{(2\pi)^4}\; \longrightarrow  \;\frac{1}{(2\pi)^4} \int d(k^2) \frac{k^2}{2} \int_{-1}^1 dz\sqrt{1-z^2} \int_{-1}^1 dy \int_0^{2\pi} d\phi\;,
+\eeqa
+where the integration momenta $k$ is parametrized as:
+\beqa
+	k = \sqrt(k^2)\begin{pmatrix} 
+ \sqrt{1-z^2}\sqrt{1-y^2}sin(\phi), \\
+	\sqrt{1-z^2}\sqrt{1-y^2}cos(\phi), \\
+	y\sqrt{1-z^2}, \\
+	z 
+\end{pmatrix}
+	\label{app:momenta_param}
+\eeqa
+The Eq.(\ref{app:momenta_param}) is the most general parametrization, however in our case due to angle symmetries of quark \DSE and meson \BSE some of the angle integrals are trivial, therefore we can reduce the amount of parameters. As for quark DSE the momenta are given as:
+\beqa
+	k = \sqrt(k^2)(0,0,0,z)
+\eeqa
+and for meson BSE we choose total meson momenta $P$ to be in the rest-frame, so $P,p,k$ read as:
+\beqa
+\notag	P &=& (0,0,0,\sqrt{P^2}) \\
+	p &=& \sqrt(p^2)(0,0,\sqrt{1-z_p^2},z_p) \\
+\notag	k &=& \sqrt(k^2)(0,\sqrt{1-z^2}\sqrt{1-y^2},y\sqrt{1-z^2},z)
+\eeqa
+In our study for the numerical calculation we explicitly employed objects like 4d-tensors and gamma matrices provided by QFT++ library \cite{Williams:2008wu}. Note however, that the original QFT++ library uses Minkowski and was rewritten for Euclidean space.
+
+
+
+

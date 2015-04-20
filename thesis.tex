@@ -4,12 +4,15 @@
 %-----------------------------------------------------------------------------
 \usepackage[dvips]{graphicx}
 \usepackage{amssymb,amsmath}
+\usepackage{mathtools}
 \usepackage{bbm}
 \usepackage{dsfont}
 \usepackage{tuetitle}
 \usepackage{multirow}
 \usepackage{epstopdf}
 \usepackage{setspace}
+\usepackage{bigints}
+\usepackage{float}
 \usepackage{longtable}
 \usepackage{graphicx}
 \usepackage[latin1]{inputenc}
@@ -22,9 +25,12 @@
 %numbers added to natbib, equivalent to  \setcitestyle{numbers} 
 \usepackage[UKenglish]{babel}
 \usepackage{enumerate}
-\usepackage[colorlinks,linkcolor=black,citecolor=blue, urlcolor=black]{hyperref}   
+\usepackage[colorlinks,linkcolor=black,citecolor=blue, urlcolor=blue]{hyperref}   
 \usepackage{verbatim}
 \usepackage[automark]{scrpage2} 
+\usepackage[toc,page]{appendix}
+\usepackage[margin=3cm]{geometry}
+%\geometry{bindingoffset=1cm}
 \linespread{1.5}
 %-----------------------------------------------------------------------------
 % equation numbering and reference
@@ -41,6 +47,8 @@
 \newcommand{\YM}{Yang--Mills }
 \newcommand{\DS}{Dyson--Schwinger }
 \newcommand{\BS}{Bethe--Salpeter }
+\newcommand{\DSE}{Dyson--Schwinger equations }
+\newcommand{\BSE}{Bethe--Salpeter equations }
 \newcommand{\w}{\omega}
 \newcommand{\e}{\varepsilon}
 \newcommand{\al}{\alpha}
@@ -108,53 +116,81 @@
 \newcommand{\half}{\frac{1}{2}}
 \newcommand{\pslash}{p\!\!\!/\,}
 \newcommand{\kslash}{k\!\!\!/\,}
+\newcommand{\qslash}{q\!\!\!/\,}
 \newcommand{\Pslash}{P\!\!\!\!/\,}
 \newcommand{\Dslash}{D\!\!\!\!/\,}
 \newcommand{\Phslash}{\hat P\!\!\!\!/\,}
 \newcommand{\Qslash}{Q\!\!\!\!/\,}
 \newcommand{\Lslash}{\Lambda\!\!\!/\,}
-
 \newcommand{\Tr}{\,\mathrm{Tr}\,}
 \newcommand{\tr}{\,\mathrm{tr}\,}
 \newcommand{\dslash}{\partial \hskip -0.5em /}
 \newcommand{\Aslash}{A \hskip -0.7em /}
 \newcommand{\Slash}[1]{\ooalign{\hfil/\hfil\crcr$#1$}}
 \newcommand{\beware}{\marginpar{\bf beware}}
-
-
-
 \renewcommand{\imath}{\mathrm{i}}
 %-----------------------------------------------------------------------------
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
 %-----------------------------------------------------------------------------
 \hyphenation{}  %not for special characters
-
-%\setkomafont{pageheadfoot}{\fontsize{10pt}{10pt}\scshape\sffamily}
-%\setkomafont{pagenumber}{\normalfont\scshape\sffamily}
-%\addtokomafont{caption}{\small} 
-%\setkomafont{captionlabel}{\sffamily\bfseries}
-%\deffootnote[1em]{1.1em}{0.3em}{\textsuperscript{\thefootnotemark}}
 \allowdisplaybreaks[1]
 %  Allow page breaks in equations                                        
 %  1: allow, but try to avoid , 4: page breaks are allowed w/o restriction 
-
-% use dvips -t a4 diss.dvi, then ps2pdf13 diss.ps
 %-----------------------------------------------------------------------------
 \begin{document}
-%\frontmatter	
+\thispagestyle{empty}
+\begin{titlepage}
+    \begin{center}
+    	\centering
+        \vspace{1cm}
+        \textbf{{\Large Static and Dynamic Properties of QCD Bound States.}}
+        
+        
+        \vspace{3cm}
+        \textbf{{\Large Dissertation}}\\
+		zur Erlangung des Grades eines\\
+		Doktors der Naturwissenschaften\\
+		(Dr. rer. nat.)
+        
+        \vspace{3cm}
+        \textbf{{\Large Stanislav Kubrak}}
+        
+        \vfill
+                	
+        \vspace{1.5cm}
+                
+        Institut f{\"u}r Theoretische Physik\\
+        Justus-Liebig-Universit{\"a}t\\
+        Gie{\ss}en, Germany\\
+        2015 \\
+        \vspace{1cm}
+        %\includegraphics[width=0.4\textwidth]{figures/logo3.png}
+        
+    \end{center}
+\end{titlepage}
+
+\include{Acknow}
+
+
 {\singlespacing
 \tableofcontents
 }
+
 %\mainmatter
 \include{Intro}
 \include{QCD_low}
-%\end{document}
 \include{DSE}
 \include{BSE}
 \include{spectra}
-\include{Fadeev}
+\include{pion}
+%\include{Fadeev}
 \include{conclusion}
+\begin{appendices}
+\include{app.euclidean}
+\include{app.basis}
+\include{app.numerics}
+\end{appendices}
 %\include{EM_properties}
 
 %-----------------------------------------------------------------------------
